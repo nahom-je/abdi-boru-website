@@ -1,0 +1,124 @@
+.body{
+    position:relative;
+    background:linear-gradient(to right ,rgb(0, 221, 255),rgb(4, 0, 64));
+     }
+.title{
+    display:inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(0, 5, 25);
+    font-weight:bold;
+    font-size:65px;
+    margin-left:28px;
+    margin-top:200px;
+    text-shadow:10px 10px 10px rgba(3, 19, 40, 0.4);
+     }
+    .post{
+        margin-top:20px;
+        margin-left:28px;
+    }
+    .span{
+         font-family:Arial, Helvetica, sans-serif ;
+         font-weight:bold;
+         color:rgb(5, 0, 19);
+         text-shadow:10px 10px 10px rgba(0,0,0,0.4);
+    }
+    .button{
+        position:relative;
+    }
+    .square{
+        display:flex;
+        display:inline-block;
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+        background:linear-gradient(to right ,rgb(121, 126, 187),rgb(55, 64, 112));
+        margin-top:-200px;
+        margin-left: 750px;
+        height:380px;
+        width:400px;
+        border-radius: 5px;
+    }
+    .both{
+        display:inline-block;
+        flex-direction: column;
+    }
+    .email{
+       width:350px;
+       height:50px;
+       margin-left:20px;
+       margin-top:20px;
+       border-radius:5px;
+       border-color:gray;
+       border:none;
+       box-shadow: 0px 0px 1.5px gray;  
+          }
+    .password{
+        width:350px;
+        height:50px; 
+        margin-left:20px;
+        margin-top:40px;
+        border-radius:5px;
+        border-color:gray;
+        border:none;
+        box-shadow: 0px 0px 1.5px gray;
+    }
+    .log-in-button{
+        width:350px;
+        height:50px; 
+        margin-left:20px;
+        margin-top:40px; 
+        margin-bottom:20px;
+        background:linear-gradient(to right ,rgb(4, 15, 67),rgb(7, 8, 26));
+        border:none;
+        color:white;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size:20px;
+        cursor: pointer;
+    }
+    .log-in-button:hover{
+        background-color:rgb(64, 42, 0); 
+    }
+    .link{
+        color:rgb(255, 255, 255);
+        margin-left:140px;
+    }
+    .new-account{
+      margin-top:20px;
+      margin-left:100px;
+      height:50px;
+      width:200px; 
+      border:none;
+      background:linear-gradient(to right ,rgb(4, 15, 67),rgb(7, 8, 26));
+      color:white;
+      font-weight:bold;
+      font-size: 15px;
+      border-radius:5px;
+      cursor: pointer;
+    }
+    .new-account:hover{
+      background-color: #2fa529;   
+    }
+    .page{
+        color:black;
+        font-weight:bold;
+        text-shadow:10px 10px 10px rgba(0,0,0,0.4);
+    }
+    .last{
+      margin-left: 750px;
+      margin-top: 16px;
+    }
+    .email::placeholder{
+        font-size:17px;
+        padding-left:22px;
+    }
+    .password::placeholder{
+        font-size:17px;
+        padding-left:22px;
+    }
+    .div{
+        display:flex;
+        flex:1;
+    }
+    .new{
+        display:inline-block;
+        color:rgb(64, 42, 0);
+    }
